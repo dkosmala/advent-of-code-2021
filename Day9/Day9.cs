@@ -35,7 +35,6 @@ public class Day9
    public string second() 
    {
       string[] lines = System.IO.File.ReadAllLines(@"Day9/input.txt");
-      int sum = 0;
       int num;
       List<(int,int)> lows = new List<(int,int)>();
       List<(int,int)[]> basins = new List<(int, int)[]>();

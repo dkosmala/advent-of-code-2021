@@ -39,7 +39,6 @@ public class Day10
    {
       string[] lines = System.IO.File.ReadAllLines(@"Day10/input.txt");
       string line, complete;
-      int sum = 0;
       Regex regex = new Regex("[\\]})>]");
       Dictionary<char, char> chunkChars = new Dictionary<char, char>() { { '[', ']' }, { '{', '}' }, { '(', ')' }, { '<', '>' } };
       List<double> scores = new List<double>();
