@@ -6,7 +6,7 @@ namespace AdventOfCode2021
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(new Day16().second());
+            Console.WriteLine(new Day17().second());
             
         }
     }
